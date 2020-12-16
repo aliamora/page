@@ -1,0 +1,64 @@
+.ico {
+  display: inline-block;
+  cursor: pointer;
+}
+.ico_photoshop {
+  background-image: url("../assets/images/icons/photoshop.svg");
+  background-repeat: no-repeat;
+  width: 90px;
+  height:90px;
+}
+
+.ico_illustrator {
+  background-image: url("../assets/images/icons/Ilustrator.svg");
+  background-repeat: no-repeat;
+  width: 90px;
+  height:90px;
+}
+
+.ico_effects {
+  background-image: url("../assets/images/icons/effects.svg");
+  background-repeat: no-repeat;
+  width: 90px;
+  height:90px;
+}
+
+.ico_figma {
+  background-image: url("../assets/images/icons/figma.svg");
+  background-repeat: no-repeat;
+  width: 59px;
+  height:90px;
+}
+.ico_linked {
+  background-image: url("../assets/images/footer/1.svg");
+  background-repeat: no-repeat;
+  width: 41px;
+  height:41px;
+}
+
+.ico_instagram {
+  background-image: url("../assets/images/footer/2.svg");
+  background-repeat: no-repeat;
+  width: 40px;
+  height:41px
+}
+
+.ico_bel {
+  background-image: url("../assets/images/footer/3.svg");
+  background-repeat: no-repeat;
+  width: 41px;
+  height:40px
+}
+
+.ico_ball {
+  background-image: url("../assets/images/footer/4.svg");
+  background-repeat: no-repeat;
+  width: 40px;
+  height:41px
+}
+
+.icon-svg:hover {
+  .icon-path {
+    fill: $secondary-color;
+  }
+}

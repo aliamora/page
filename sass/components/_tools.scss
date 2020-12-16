@@ -1,0 +1,29 @@
+.tool__title {
+  @include font($size:1.4rem, $height:1.7rem);
+  margin: 0;
+  padding-top: 24px;
+  text-align: center;
+  color:$secondary-color;
+}
+
+.tool__icon {
+  margin: 0 0 0 38px;
+}
+
+.tool__level-four {
+  background-image: url("../assets/images/icons/1.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-top: 40px;
+  width: 168px;
+  height: 27px;
+}
+
+.tool__level-three {
+  background-image: url("../assets/images/icons/2.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin: 40px 0 111px 0;
+  width: 168px;
+  height: 27px;
+}

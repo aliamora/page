@@ -1,0 +1,32 @@
+.about {
+  background-color: $background-color;
+}
+
+.about__wrapper {
+  max-width: 485px;
+}
+
+.about__content {
+  padding-top: 120px;
+  text-align: center;
+  padding-bottom: 45px;
+}
+
+.about__title {
+  @include font($size: 3.4rem, $height: 4.1rem);
+  color: $primary-color;
+  margin: 0;
+  padding-bottom: 22px;
+}
+
+.about__subtitle span{
+  @include font($size:1.8rem, $height: 2.2rem, $weight: normal);
+  display: block;
+  margin: 0;
+  //padding-bottom: ;
+}
+
+.about__subtitle {
+  margin: 0;
+  padding-bottom: 40px;
+}

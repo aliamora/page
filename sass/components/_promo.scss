@@ -1,0 +1,47 @@
+.promo {
+  padding-top: 40px;
+}
+
+.promo__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.promo__title {
+  width: 123px;
+  @include font($size: 47px, $height: 57px);
+  color: $primary-color;
+  margin: 0;
+}
+
+.promo__subtitle {
+  @include font($size: 1.8rem, $height: 2.2rem, $weight:normal);
+  color: $primary-color;
+  max-width: 155px;
+  //margin-bottom: 0px;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.promo__lang {
+  display: flex;
+  justify-content: space-around;
+  transform: rotate(-90deg);
+  height: 20px;
+  width: 65px;
+  position: absolute;
+  right: 265px;
+  top: 190px;
+  cursor: pointer;
+  &-colored {
+    padding-top: 1px;
+    &:hover {
+      @extend %transition;
+      color: $secondary-color;
+    }
+  }
+}
+
+.promo__image {
+  padding: 50px 0 104px;
+}

@@ -1,0 +1,35 @@
+.footer__wrapper {
+  padding-top: 114px;
+  padding-bottom: 123px;
+  max-width: 342px;
+}
+
+.footer__content {
+  text-align: center;
+}
+
+.footer__title {
+  @include font($size:3.4rem, $height: 4.1rem);
+  margin: 0;
+  padding-bottom: 20px;
+  color: $primary-color;
+}
+
+.footer__subtitle {
+  @include font($size:1.8rem, $height:2.2rem);
+  margin: 0;
+  padding-bottom: 30px;
+  color: $primary-color;
+}
+
+.footer__sites {
+  margin-top: 45px;
+}
+
+.footer__text span {
+  @include font($size:1.4rem, $height:1.7rem, $weight:normal);
+  display: block;
+  text-align: center;
+  //margin-top: 45px;
+  color: $secondary-color;
+}
