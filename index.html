@@ -2,20 +2,19 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="sass/style.scss">
-  <link rel="stylesheet" href="sass/fonts.css">
+  <link rel="stylesheet" href="sass/style.css">
   <title>Denis Novik</title>
 </head>
 <body>
-<header>
-  <div class="wrapper">
-    <nav>
-      <ul class="header__navigation">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About me</a></li>
-        <li><a href="#">Skills</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contacts</a></li>
+<header class="header">
+  <div class="wrapper header__wrapper">
+    <nav class="header__navigation">
+      <ul class="navigation">
+        <li><a href="#" class="navigation__link">Home</a></li>
+        <li><a href="#" class="navigation__link">About me</a></li>
+        <li><a href="#" class="navigation__link">Skills</a></li>
+        <li><a href="#" class="navigation__link">Portfolio</a></li>
+        <li><a href="#" class="navigation__link">Contacts</a></li>
       </ul>
     </nav>
   </div>
@@ -26,19 +25,31 @@
       <h1 class="promo__title">
         Denis Novik
       </h1>
-      <p class="promo__subtitle">UX | UI designer 24 years old, Minsk</p>
-      <p class="promo__lang">RU | ENG</p>
+      <p class="promo__subtitle">UX &#124; UI designer 24 years old, Minsk</p>
+      <div class="promo__lang">
+        <span class="promo__lang-colored"><b>RU</b></span><b>&#124;</b>
+        <span class="promo__lang-colored"><b>ENG</b></span>
+      </div>
     </div>
-    <img src="assets/images/promo.jpg">
+    <img src="assets/images/promo.jpg" class="promo__image">
   </div>
 </section>
 <section class="about">
-  <div class="wrapper">
+  <div class="wrapper about__wrapper">
     <div class="about__content">
       <h2 class="about__title">About me</h2>
-      <p class="about__subtitle">Hi, I'm Denis – UX/UI designer from Minsk. I'm interested in design and everything connected with it.</p>
-      <p class="about__subtitle">I'm studying at courses "Web and mobile design interfaces" in IT-Academy. </p>
-      <p class="about__subtitle">Ready to implement excellent projects with wonderful people.</p>
+      <p class="about__subtitle">
+        <span>Hi, I'm Denis – UX/UI designer from Minsk.</span>
+        <span>I'm interested in design and everything connected with it.</span>
+      </p>
+      <p class="about__subtitle">
+        <span>I'm studying at courses "Web and mobile design</span>
+        <span>interfaces" in IT-Academy.</span>
+      </p>
+      <p class="about__subtitle">
+        <span>Ready to implement excellent projects</span>
+        <span>with wonderful people.</span>
+      </p>
     </div>
   </div>
 </section>
@@ -49,33 +60,37 @@
     <div class="layout-4-column">
       <div class="tool">
         <div class="tool__icon">
-          <span class="icon-photoshop"></span>
+          <span class="ico ico_photoshop"></span>
         </div>
         <h5 class="tool__title">Adobe Photoshop</h5>
+        <span class="tool__level-four"></span>
       </div>
       <div class="tool">
         <div class="tool__icon">
-          <span class="icon-illustrator"></span>
+          <span class="ico ico_illustrator"></span>
         </div>
-        <h5 class="tool__illustrator">Adobe Illustrator</h5>
+        <h5 class="tool__title">Adobe Illustrator</h5>
+        <span class="tool__level-three"></span>
       </div>
       <div class="tool">
         <div class="tool__icon">
-          <span class="icon-effects"></span>
+          <span class="ico ico_effects"></span>
         </div>
-        <h5 class="tool__effects">Adobe After Effects</h5>
+        <h5 class="tool__title">Adobe After Effects</h5>
+        <span class="tool__level-four"></span>
       </div>
       <div class="tool">
         <div class="tool__icon">
-          <span class="icon-figma"></span>
+          <span class="ico ico_figma"></span>
         </div>
-        <h5 class="tool__effects">Figma</h5>
+        <h5 class="tool__title">Figma</h5>
+        <span class="tool__level-four"></span>
       </div>
     </div>
   </div>
 </section>
 <section class="portfolio">
-  <div class="wrapper">
+  <div class="wrapper portfolio__wrapper">
     <h2 class="portfolio__title">Portfolio</h2>
     <img src="assets/images/portfolio/1.png">
     <p class="portfolio__subtitle">Online fashion store - Homepage</p>
@@ -86,20 +101,25 @@
   </div>
 </section>
 <footer class="footer">
-  <div class="wrapper">
-    <div class="contacts__content">
-      <h2>Contacts</h2>
-      <p class="contacts__subtitle">Want to know more or just chat? You are welcome!</p>
+  <div class="wrapper footer__wrapper">
+    <div class="footer__content">
+      <h2 class="footer__title">Contacts</h2>
+      <p class="footer__subtitle">Want to know more or just chat? You are welcome!</p>
       <button class="button button__colored">Send message</button>
     </div>
-    <div>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
+    <div class="layout-4-column">
+      <span class="ico ico_linked"></span>
+      <span class="ico ico_instagram"></span>
+      <span class="ico ico_bel"></span>
+      <span class="ico ico_ball"></span>
+    </div>
+    <div class="footer__sites">
+      <p class="footer__text">
+        <span>Like me on</span>
+        <span>LinkedIn, Instagram, Behance, Dribble</span>
+      </p>
     </div>
   </div>
-  <p class="content__">Like me on LinkedIn, Instagram, Behance, Dribble</p>
 </footer>
 </body>
 </html>
