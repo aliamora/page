@@ -1,0 +1,19 @@
+.button {
+  @extend %font-add;
+  @include font($size:1.8rem, $height:2.2rem);
+  padding: 13px 29px 12px;
+  margin-bottom: 85px;
+  color:$light-color;
+  border-radius: 35px;
+  outline: none;
+  cursor: pointer;
+  &:hover {
+    @extend %transition;
+    color: $secondary-color;
+  }
+}
+
+.button__colored {
+  background-color: $primary-color;
+  color:$light-color;
+}

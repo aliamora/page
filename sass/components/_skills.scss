@@ -1,0 +1,19 @@
+.skills {
+  padding-top: 91px;
+}
+
+.skills__title {
+  @include font($size:3.4rem, $height: 4.1rem);
+  margin: 0;
+  padding-bottom: 69px;
+  color: $primary-color;
+  text-align: center;
+}
+
+.skills__subtitle {
+  @include font($size:1.8rem, $height:2.2rem);
+  margin: 0;
+  padding-bottom: 83px;
+  color: $primary-color;
+  text-align: center;
+}

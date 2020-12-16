@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../assets/fonts/Gilroy-regular/Gilroy-Regular.eot");
+  src: local('Gilroy-Regular'), local('Gilroy'),
+  url("../assets/fonts/Gilroy-regular/Gilroy-Regular.eot?#iefix") format("embedded-opentype"),
+  url("../assets/fonts/Gilroy-regular/Gilroy-Regular.woff") format("woff"),
+  url("../assets/fonts/Gilroy-regular/Gilroy-Regular.ttf") format("ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../assets/fonts/Gilroy-bold/Gilroy-Bold.eot");
+  src: local('Gilroy Bold'), local('Open-Sans-Bold'),
+  url("../assets/fonts/Gilroy-bold/Gilroy-Bold.eot?#iefix") format("embedded-opentype"),
+  url("../assets/fonts/Gilroy-bold/Gilroy-Bold.woff") format("woff"),
+  url("../assets/fonts/Gilroy-bold/Gilroy-Bold.ttf") format("ttf");
+  font-weight: bold;
+}

@@ -1,0 +1,28 @@
+.portfolio {
+  background-color: $background-color;
+}
+
+.portfolio__wrapper {
+  padding-top: 112px;
+  text-align: center;
+}
+
+.portfolio__title {
+  @include font($size:3.4rem, $height: 4.1rem);
+  margin: 0;
+  padding-bottom: 47px;
+  color: $primary-color;
+}
+
+.portfolio__subtitle {
+  @include font($size:1.8rem, $height:1.1rem);
+  margin: 0;
+  text-decoration: underline $primary-color;
+  padding: 44px 0 96px 0;
+  cursor: pointer;
+  &:hover{
+    @extend %transition;
+    color:$secondary-color;
+    text-decoration: underline$secondary-color;
+  }
+}
